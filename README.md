@@ -2,6 +2,8 @@
 
 This project simulates a robotic arm using inverse kinematics (IK) in a 3D environment. The arm supports two types of joints (yaw and pitch) and includes interactive controls via mouse input and a GUI (using ImGui). In addition, the program can automatically “draw” a picture by moving the end effector along a path computed on the camera’s view plane. The drawing line is rendered only when it is fully on-screen and always appears on top of the scene.
 
+![image](https://github.com/user-attachments/assets/64dd87fd-aa63-4825-9020-99f9902e174e)
+
 ## Features
 
 - **Inverse Kinematics (IK):**  
