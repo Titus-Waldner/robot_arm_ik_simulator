@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(imgui_glfw-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/ocornut/imgui.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v1.89.9" "SOURCE_SUBDIR" "backends"
-                    SOURCE_DIR          "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/imgui_glfw-src"
-                    BINARY_DIR          "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/imgui_glfw-build"
+                    SOURCE_DIR          "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui_glfw-src"
+                    BINARY_DIR          "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui_glfw-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

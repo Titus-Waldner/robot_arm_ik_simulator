@@ -23,7 +23,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\msys64\ucrt64\bin\cmake.exe --regenerate-during-build -S"C:\msys64\home\Comrade Chocobo\RobotArm\build\_deps\glfw-subbuild" -B"C:\msys64\home\Comrade Chocobo\RobotArm\build\_deps\glfw-subbuild"
+  command = C:\msys64\ucrt64\bin\cmake.exe --regenerate-during-build -S"C:\msys64\home\Comrade Chocobo\robot_arm_ik_simulator\build\_deps\glfw-subbuild" -B"C:\msys64\home\Comrade Chocobo\robot_arm_ik_simulator\build\_deps\glfw-subbuild"
   description = Re-running CMake...
   generator = 1
 

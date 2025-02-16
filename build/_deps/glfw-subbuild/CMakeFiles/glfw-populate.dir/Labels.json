@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate.rule"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate-complete.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate-complete.rule"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build.rule"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure.rule"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download.rule"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install.rule"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir.rule"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch.rule"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test.rule"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update.rule"
 		}
 	],
 	"target" : 

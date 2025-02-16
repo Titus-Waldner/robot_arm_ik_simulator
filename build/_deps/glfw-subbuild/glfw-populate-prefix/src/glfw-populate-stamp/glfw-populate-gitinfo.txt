@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=C:/msys64/ucrt64/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitclone.cmake
-source_dir=C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-src
-work_dir=C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps
+command=C:/msys64/ucrt64/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitclone.cmake
+source_dir=C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src
+work_dir=C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps
 repository=https://github.com/glfw/glfw.git
 remote=origin
 init_submodules=TRUE

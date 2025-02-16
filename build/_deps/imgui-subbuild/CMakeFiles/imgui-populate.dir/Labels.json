@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate.rule"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate-complete.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate-complete.rule"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-build.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-build.rule"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-configure.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-configure.rule"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-download.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-download.rule"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-install.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-install.rule"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-mkdir.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-mkdir.rule"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-patch.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-patch.rule"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-test.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-test.rule"
 		},
 		{
-			"file" : "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-update.rule"
+			"file" : "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-update.rule"
 		}
 	],
 	"target" : 

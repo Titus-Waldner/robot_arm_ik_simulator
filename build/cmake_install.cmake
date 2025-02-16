@@ -1,4 +1,4 @@
-# Install script for directory: C:/msys64/home/Comrade Chocobo/RobotArm
+# Install script for directory: C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,16 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-build/cmake_install.cmake")
-  include("C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glad-build/cmake_install.cmake")
-  include("C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glm-build/cmake_install.cmake")
+  include("C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/cmake_install.cmake")
+  include("C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glad-build/cmake_install.cmake")
+  include("C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glm-build/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/msys64/home/Comrade Chocobo/RobotArm/build/install_local_manifest.txt"
+  file(WRITE "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -64,6 +64,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/msys64/home/Comrade Chocobo/RobotArm/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

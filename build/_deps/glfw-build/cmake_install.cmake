@@ -1,4 +1,4 @@
-# Install script for directory: C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-src
+# Install script for directory: C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,27 +39,27 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-build/src/cmake_install.cmake")
+  include("C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-build/examples/cmake_install.cmake")
+  include("C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/examples/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-build/tests/cmake_install.cmake")
+  include("C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/tests/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-src/include/GLFW" FILES_MATCHING REGEX "/glfw3\\.h$" REGEX "/glfw3native\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include/GLFW" FILES_MATCHING REGEX "/glfw3\\.h$" REGEX "/glfw3native\\.h$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES
-    "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-build/src/glfw3Config.cmake"
-    "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-build/src/glfw3ConfigVersion.cmake"
+    "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src/glfw3Config.cmake"
+    "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src/glfw3ConfigVersion.cmake"
     )
 endif()
 
@@ -67,7 +67,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3/glfw3Targets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3/glfw3Targets.cmake"
-         "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-build/CMakeFiles/Export/f367bd07922f2ecfc14cf5547f1f7c4e/glfw3Targets.cmake")
+         "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/CMakeFiles/Export/f367bd07922f2ecfc14cf5547f1f7c4e/glfw3Targets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3/glfw3Targets-*.cmake")
       if(_cmake_old_config_files)
@@ -80,19 +80,19 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-build/CMakeFiles/Export/f367bd07922f2ecfc14cf5547f1f7c4e/glfw3Targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/CMakeFiles/Export/f367bd07922f2ecfc14cf5547f1f7c4e/glfw3Targets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-build/CMakeFiles/Export/f367bd07922f2ecfc14cf5547f1f7c4e/glfw3Targets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/CMakeFiles/Export/f367bd07922f2ecfc14cf5547f1f7c4e/glfw3Targets-noconfig.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-build/src/glfw3.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src/glfw3.pc")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-build/install_local_manifest.txt"
+  file(WRITE "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

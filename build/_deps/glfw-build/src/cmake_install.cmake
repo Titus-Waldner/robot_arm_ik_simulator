@@ -1,4 +1,4 @@
-# Install script for directory: C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-src/src
+# Install script for directory: C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,12 +38,12 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-build/src/libglfw3.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src/libglfw3.a")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glfw-build/src/install_local_manifest.txt"
+  file(WRITE "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

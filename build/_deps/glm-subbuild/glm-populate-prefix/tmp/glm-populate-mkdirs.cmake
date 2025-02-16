@@ -6,22 +6,22 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glm-src")
-  file(MAKE_DIRECTORY "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glm-src")
+if(NOT EXISTS "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glm-src")
+  file(MAKE_DIRECTORY "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glm-src")
 endif()
 file(MAKE_DIRECTORY
-  "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glm-build"
-  "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glm-subbuild/glm-populate-prefix"
-  "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glm-subbuild/glm-populate-prefix/tmp"
-  "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp"
-  "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glm-subbuild/glm-populate-prefix/src"
-  "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp"
+  "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glm-build"
+  "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glm-subbuild/glm-populate-prefix"
+  "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glm-subbuild/glm-populate-prefix/tmp"
+  "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp"
+  "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glm-subbuild/glm-populate-prefix/src"
+  "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/msys64/home/Comrade Chocobo/RobotArm/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

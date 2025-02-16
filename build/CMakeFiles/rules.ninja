@@ -740,7 +740,7 @@ rule C_STATIC_LIBRARY_LINKER__glad_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\msys64\ucrt64\bin\cmake.exe --regenerate-during-build -S"C:\msys64\home\Comrade Chocobo\RobotArm" -B"C:\msys64\home\Comrade Chocobo\RobotArm\build"
+  command = C:\msys64\ucrt64\bin\cmake.exe --regenerate-during-build -S"C:\msys64\home\Comrade Chocobo\robot_arm_ik_simulator" -B"C:\msys64\home\Comrade Chocobo\robot_arm_ik_simulator\build"
   description = Re-running CMake...
   generator = 1
 
