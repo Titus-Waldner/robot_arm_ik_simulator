@@ -41,3 +41,8 @@ This project uses CMake for its build system. To build the project, follow these
    ```bash
    git clone https://github.com/your-username/RobotArmIK.git
    cd RobotArmIK
+
+
+Updates 1:
+
+Length Parameter added to allow for differnet arm lengths.
