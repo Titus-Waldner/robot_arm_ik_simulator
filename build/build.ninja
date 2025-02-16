@@ -50,8 +50,6 @@ build CMakeFiles/RobotArm.dir/src/main.cpp.obj: CXX_COMPILER__RobotArm_unscanned
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glm-src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src/backends" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glad-build/include"
   OBJECT_DIR = CMakeFiles\RobotArm.dir
   OBJECT_FILE_DIR = CMakeFiles\RobotArm.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\RobotArm.dir\
-  TARGET_PDB = RobotArm.pdb
 
 
 # =============================================================================
@@ -66,10 +64,9 @@ build RobotArm.exe: CXX_EXECUTABLE_LINKER__RobotArm_ CMakeFiles/RobotArm.dir/src
   OBJECT_DIR = CMakeFiles\RobotArm.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\RobotArm.dir\
   TARGET_FILE = RobotArm.exe
   TARGET_IMPLIB = libRobotArm.dll.a
-  TARGET_PDB = RobotArm.pdb
+  TARGET_PDB = RobotArm.exe.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target imgui_lib
@@ -86,8 +83,6 @@ build CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui.cpp.obj: CXX_COMPILER__imgu
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glm-src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src/backends"
   OBJECT_DIR = CMakeFiles\imgui_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui_lib.dir\_deps\imgui-src
-  TARGET_COMPILE_PDB = CMakeFiles\imgui_lib.dir\imgui_lib.pdb
-  TARGET_PDB = libimgui_lib.pdb
 
 build CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_draw.cpp.obj: CXX_COMPILER__imgui_lib_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src/imgui_draw.cpp || cmake_object_order_depends_target_imgui_lib
   DEP_FILE = CMakeFiles\imgui_lib.dir\_deps\imgui-src\imgui_draw.cpp.obj.d
@@ -95,8 +90,6 @@ build CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_draw.cpp.obj: CXX_COMPILER_
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glm-src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src/backends"
   OBJECT_DIR = CMakeFiles\imgui_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui_lib.dir\_deps\imgui-src
-  TARGET_COMPILE_PDB = CMakeFiles\imgui_lib.dir\imgui_lib.pdb
-  TARGET_PDB = libimgui_lib.pdb
 
 build CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_widgets.cpp.obj: CXX_COMPILER__imgui_lib_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src/imgui_widgets.cpp || cmake_object_order_depends_target_imgui_lib
   DEP_FILE = CMakeFiles\imgui_lib.dir\_deps\imgui-src\imgui_widgets.cpp.obj.d
@@ -104,8 +97,6 @@ build CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_widgets.cpp.obj: CXX_COMPIL
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glm-src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src/backends"
   OBJECT_DIR = CMakeFiles\imgui_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui_lib.dir\_deps\imgui-src
-  TARGET_COMPILE_PDB = CMakeFiles\imgui_lib.dir\imgui_lib.pdb
-  TARGET_PDB = libimgui_lib.pdb
 
 build CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_tables.cpp.obj: CXX_COMPILER__imgui_lib_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src/imgui_tables.cpp || cmake_object_order_depends_target_imgui_lib
   DEP_FILE = CMakeFiles\imgui_lib.dir\_deps\imgui-src\imgui_tables.cpp.obj.d
@@ -113,8 +104,6 @@ build CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_tables.cpp.obj: CXX_COMPILE
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glm-src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src/backends"
   OBJECT_DIR = CMakeFiles\imgui_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui_lib.dir\_deps\imgui-src
-  TARGET_COMPILE_PDB = CMakeFiles\imgui_lib.dir\imgui_lib.pdb
-  TARGET_PDB = libimgui_lib.pdb
 
 build CMakeFiles/imgui_lib.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.obj: CXX_COMPILER__imgui_lib_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src/backends/imgui_impl_glfw.cpp || cmake_object_order_depends_target_imgui_lib
   DEP_FILE = CMakeFiles\imgui_lib.dir\_deps\imgui-src\backends\imgui_impl_glfw.cpp.obj.d
@@ -122,8 +111,6 @@ build CMakeFiles/imgui_lib.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.obj:
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glm-src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src/backends"
   OBJECT_DIR = CMakeFiles\imgui_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui_lib.dir\_deps\imgui-src\backends
-  TARGET_COMPILE_PDB = CMakeFiles\imgui_lib.dir\imgui_lib.pdb
-  TARGET_PDB = libimgui_lib.pdb
 
 build CMakeFiles/imgui_lib.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.obj: CXX_COMPILER__imgui_lib_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src/backends/imgui_impl_opengl3.cpp || cmake_object_order_depends_target_imgui_lib
   DEP_FILE = CMakeFiles\imgui_lib.dir\_deps\imgui-src\backends\imgui_impl_opengl3.cpp.obj.d
@@ -131,8 +118,6 @@ build CMakeFiles/imgui_lib.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glm-src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/imgui-src/backends"
   OBJECT_DIR = CMakeFiles\imgui_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui_lib.dir\_deps\imgui-src\backends
-  TARGET_COMPILE_PDB = CMakeFiles\imgui_lib.dir\imgui_lib.pdb
-  TARGET_PDB = libimgui_lib.pdb
 
 
 # =============================================================================
@@ -146,9 +131,8 @@ build libimgui_lib.a: CXX_STATIC_LIBRARY_LINKER__imgui_lib_ CMakeFiles/imgui_lib
   OBJECT_DIR = CMakeFiles\imgui_lib.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\imgui_lib.dir\imgui_lib.pdb
   TARGET_FILE = libimgui_lib.a
-  TARGET_PDB = libimgui_lib.pdb
+  TARGET_PDB = imgui_lib.a.dbg
 
 
 #############################################
@@ -325,8 +309,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_u
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src"
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -335,8 +317,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unsc
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src"
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -345,8 +325,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_uns
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src"
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -355,8 +333,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_u
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src"
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -365,8 +341,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_un
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src"
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -375,8 +349,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_un
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src"
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src/win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -385,8 +357,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glf
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src"
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src/win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -395,8 +365,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER_
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src"
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src/win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -405,8 +373,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src"
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src/win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -415,8 +381,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glf
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src"
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src/win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -425,8 +389,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__g
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src"
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src/win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -435,8 +397,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__g
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src"
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src/wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -445,8 +405,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__gl
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src"
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -455,8 +413,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__gl
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src"
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -465,8 +421,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER_
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/src" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-build/src"
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 
 # =============================================================================
@@ -480,9 +434,8 @@ build _deps/glfw-build/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_ _deps/glfw
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_FILE = _deps\glfw-build\src\libglfw3.a
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
+  TARGET_PDB = glfw3.a.dbg
 
 
 #############################################
@@ -577,16 +530,12 @@ build _deps/glfw-build/examples/CMakeFiles/boing.dir/boing.c.obj: C_COMPILER__bo
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\boing.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\boing.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\boing.dir\
-  TARGET_PDB = _deps\glfw-build\examples\boing.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/boing.dir/glfw.rc.obj: RC_COMPILER__boing_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/examples/glfw.rc || cmake_object_order_depends_target_boing
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\boing.dir\glfw.rc.obj.d
   INCLUDES = -I "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\boing.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\boing.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\boing.dir\
-  TARGET_PDB = _deps\glfw-build\examples\boing.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.obj: C_COMPILER__boing_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_boing
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\boing.dir\__\deps\glad_gl.c.obj.d
@@ -594,8 +543,6 @@ build _deps/glfw-build/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.obj: C_CO
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\boing.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\boing.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\boing.dir\
-  TARGET_PDB = _deps\glfw-build\examples\boing.pdb
 
 
 # =============================================================================
@@ -611,10 +558,9 @@ build _deps/glfw-build/examples/boing.exe: C_EXECUTABLE_LINKER__boing_ _deps/glf
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\boing.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\boing.dir\
   TARGET_FILE = _deps\glfw-build\examples\boing.exe
   TARGET_IMPLIB = _deps\glfw-build\examples\libboing.dll.a
-  TARGET_PDB = _deps\glfw-build\examples\boing.pdb
+  TARGET_PDB = boing.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target gears
@@ -631,16 +577,12 @@ build _deps/glfw-build/examples/CMakeFiles/gears.dir/gears.c.obj: C_COMPILER__ge
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\gears.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\gears.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\gears.dir\
-  TARGET_PDB = _deps\glfw-build\examples\gears.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/gears.dir/glfw.rc.obj: RC_COMPILER__gears_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/examples/glfw.rc || cmake_object_order_depends_target_gears
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\gears.dir\glfw.rc.obj.d
   INCLUDES = -I "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\gears.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\gears.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\gears.dir\
-  TARGET_PDB = _deps\glfw-build\examples\gears.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.obj: C_COMPILER__gears_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_gears
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\gears.dir\__\deps\glad_gl.c.obj.d
@@ -648,8 +590,6 @@ build _deps/glfw-build/examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.obj: C_CO
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\gears.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\gears.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\gears.dir\
-  TARGET_PDB = _deps\glfw-build\examples\gears.pdb
 
 
 # =============================================================================
@@ -665,10 +605,9 @@ build _deps/glfw-build/examples/gears.exe: C_EXECUTABLE_LINKER__gears_ _deps/glf
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\gears.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\gears.dir\
   TARGET_FILE = _deps\glfw-build\examples\gears.exe
   TARGET_IMPLIB = _deps\glfw-build\examples\libgears.dll.a
-  TARGET_PDB = _deps\glfw-build\examples\gears.pdb
+  TARGET_PDB = gears.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target heightmap
@@ -685,16 +624,12 @@ build _deps/glfw-build/examples/CMakeFiles/heightmap.dir/heightmap.c.obj: C_COMP
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\heightmap.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\heightmap.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\heightmap.dir\
-  TARGET_PDB = _deps\glfw-build\examples\heightmap.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/heightmap.dir/glfw.rc.obj: RC_COMPILER__heightmap_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/examples/glfw.rc || cmake_object_order_depends_target_heightmap
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\heightmap.dir\glfw.rc.obj.d
   INCLUDES = -I "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\heightmap.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\heightmap.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\heightmap.dir\
-  TARGET_PDB = _deps\glfw-build\examples\heightmap.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/heightmap.dir/__/deps/glad_gl.c.obj: C_COMPILER__heightmap_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_heightmap
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\heightmap.dir\__\deps\glad_gl.c.obj.d
@@ -702,8 +637,6 @@ build _deps/glfw-build/examples/CMakeFiles/heightmap.dir/__/deps/glad_gl.c.obj: 
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\heightmap.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\heightmap.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\heightmap.dir\
-  TARGET_PDB = _deps\glfw-build\examples\heightmap.pdb
 
 
 # =============================================================================
@@ -719,10 +652,9 @@ build _deps/glfw-build/examples/heightmap.exe: C_EXECUTABLE_LINKER__heightmap_ _
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\heightmap.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\heightmap.dir\
   TARGET_FILE = _deps\glfw-build\examples\heightmap.exe
   TARGET_IMPLIB = _deps\glfw-build\examples\libheightmap.dll.a
-  TARGET_PDB = _deps\glfw-build\examples\heightmap.pdb
+  TARGET_PDB = heightmap.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target offscreen
@@ -739,16 +671,12 @@ build _deps/glfw-build/examples/CMakeFiles/offscreen.dir/offscreen.c.obj: C_COMP
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\offscreen.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\offscreen.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\offscreen.dir\
-  TARGET_PDB = _deps\glfw-build\examples\offscreen.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/offscreen.dir/glfw.rc.obj: RC_COMPILER__offscreen_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/examples/glfw.rc || cmake_object_order_depends_target_offscreen
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\offscreen.dir\glfw.rc.obj.d
   INCLUDES = -I "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\offscreen.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\offscreen.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\offscreen.dir\
-  TARGET_PDB = _deps\glfw-build\examples\offscreen.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/offscreen.dir/__/deps/glad_gl.c.obj: C_COMPILER__offscreen_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_offscreen
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\offscreen.dir\__\deps\glad_gl.c.obj.d
@@ -756,8 +684,6 @@ build _deps/glfw-build/examples/CMakeFiles/offscreen.dir/__/deps/glad_gl.c.obj: 
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\offscreen.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\offscreen.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\offscreen.dir\
-  TARGET_PDB = _deps\glfw-build\examples\offscreen.pdb
 
 
 # =============================================================================
@@ -772,10 +698,9 @@ build _deps/glfw-build/examples/offscreen.exe: C_EXECUTABLE_LINKER__offscreen_ _
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\offscreen.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\offscreen.dir\
   TARGET_FILE = _deps\glfw-build\examples\offscreen.exe
   TARGET_IMPLIB = _deps\glfw-build\examples\liboffscreen.dll.a
-  TARGET_PDB = _deps\glfw-build\examples\offscreen.pdb
+  TARGET_PDB = offscreen.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target particles
@@ -792,16 +717,12 @@ build _deps/glfw-build/examples/CMakeFiles/particles.dir/particles.c.obj: C_COMP
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\particles.dir\
-  TARGET_PDB = _deps\glfw-build\examples\particles.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/particles.dir/glfw.rc.obj: RC_COMPILER__particles_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/examples/glfw.rc || cmake_object_order_depends_target_particles
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\particles.dir\glfw.rc.obj.d
   INCLUDES = -I "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\particles.dir\
-  TARGET_PDB = _deps\glfw-build\examples\particles.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.obj: C_COMPILER__particles_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/tinycthread.c || cmake_object_order_depends_target_particles
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\particles.dir\__\deps\tinycthread.c.obj.d
@@ -809,8 +730,6 @@ build _deps/glfw-build/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\particles.dir\
-  TARGET_PDB = _deps\glfw-build\examples\particles.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/particles.dir/__/deps/getopt.c.obj: C_COMPILER__particles_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/getopt.c || cmake_object_order_depends_target_particles
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\particles.dir\__\deps\getopt.c.obj.d
@@ -818,8 +737,6 @@ build _deps/glfw-build/examples/CMakeFiles/particles.dir/__/deps/getopt.c.obj: C
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\particles.dir\
-  TARGET_PDB = _deps\glfw-build\examples\particles.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.obj: C_COMPILER__particles_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_particles
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\particles.dir\__\deps\glad_gl.c.obj.d
@@ -827,8 +744,6 @@ build _deps/glfw-build/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.obj: 
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\particles.dir\
-  TARGET_PDB = _deps\glfw-build\examples\particles.pdb
 
 
 # =============================================================================
@@ -844,10 +759,9 @@ build _deps/glfw-build/examples/particles.exe: C_EXECUTABLE_LINKER__particles_ _
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\particles.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\particles.dir\
   TARGET_FILE = _deps\glfw-build\examples\particles.exe
   TARGET_IMPLIB = _deps\glfw-build\examples\libparticles.dll.a
-  TARGET_PDB = _deps\glfw-build\examples\particles.pdb
+  TARGET_PDB = particles.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target sharing
@@ -864,16 +778,12 @@ build _deps/glfw-build/examples/CMakeFiles/sharing.dir/sharing.c.obj: C_COMPILER
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\sharing.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\sharing.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\sharing.dir\
-  TARGET_PDB = _deps\glfw-build\examples\sharing.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/sharing.dir/glfw.rc.obj: RC_COMPILER__sharing_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/examples/glfw.rc || cmake_object_order_depends_target_sharing
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\sharing.dir\glfw.rc.obj.d
   INCLUDES = -I "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\sharing.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\sharing.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\sharing.dir\
-  TARGET_PDB = _deps\glfw-build\examples\sharing.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.obj: C_COMPILER__sharing_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_sharing
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\sharing.dir\__\deps\glad_gl.c.obj.d
@@ -881,8 +791,6 @@ build _deps/glfw-build/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.obj: C_
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\sharing.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\sharing.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\sharing.dir\
-  TARGET_PDB = _deps\glfw-build\examples\sharing.pdb
 
 
 # =============================================================================
@@ -898,10 +806,9 @@ build _deps/glfw-build/examples/sharing.exe: C_EXECUTABLE_LINKER__sharing_ _deps
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\sharing.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\sharing.dir\
   TARGET_FILE = _deps\glfw-build\examples\sharing.exe
   TARGET_IMPLIB = _deps\glfw-build\examples\libsharing.dll.a
-  TARGET_PDB = _deps\glfw-build\examples\sharing.pdb
+  TARGET_PDB = sharing.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target simple
@@ -918,16 +825,12 @@ build _deps/glfw-build/examples/CMakeFiles/simple.dir/simple.c.obj: C_COMPILER__
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\simple.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\simple.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\simple.dir\
-  TARGET_PDB = _deps\glfw-build\examples\simple.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/simple.dir/glfw.rc.obj: RC_COMPILER__simple_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/examples/glfw.rc || cmake_object_order_depends_target_simple
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\simple.dir\glfw.rc.obj.d
   INCLUDES = -I "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\simple.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\simple.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\simple.dir\
-  TARGET_PDB = _deps\glfw-build\examples\simple.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.obj: C_COMPILER__simple_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_simple
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\simple.dir\__\deps\glad_gl.c.obj.d
@@ -935,8 +838,6 @@ build _deps/glfw-build/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.obj: C_C
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\simple.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\simple.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\simple.dir\
-  TARGET_PDB = _deps\glfw-build\examples\simple.pdb
 
 
 # =============================================================================
@@ -952,10 +853,9 @@ build _deps/glfw-build/examples/simple.exe: C_EXECUTABLE_LINKER__simple_ _deps/g
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\simple.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\simple.dir\
   TARGET_FILE = _deps\glfw-build\examples\simple.exe
   TARGET_IMPLIB = _deps\glfw-build\examples\libsimple.dll.a
-  TARGET_PDB = _deps\glfw-build\examples\simple.pdb
+  TARGET_PDB = simple.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target splitview
@@ -972,16 +872,12 @@ build _deps/glfw-build/examples/CMakeFiles/splitview.dir/splitview.c.obj: C_COMP
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\splitview.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\splitview.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\splitview.dir\
-  TARGET_PDB = _deps\glfw-build\examples\splitview.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/splitview.dir/glfw.rc.obj: RC_COMPILER__splitview_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/examples/glfw.rc || cmake_object_order_depends_target_splitview
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\splitview.dir\glfw.rc.obj.d
   INCLUDES = -I "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\splitview.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\splitview.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\splitview.dir\
-  TARGET_PDB = _deps\glfw-build\examples\splitview.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/splitview.dir/__/deps/glad_gl.c.obj: C_COMPILER__splitview_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_splitview
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\splitview.dir\__\deps\glad_gl.c.obj.d
@@ -989,8 +885,6 @@ build _deps/glfw-build/examples/CMakeFiles/splitview.dir/__/deps/glad_gl.c.obj: 
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\splitview.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\splitview.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\splitview.dir\
-  TARGET_PDB = _deps\glfw-build\examples\splitview.pdb
 
 
 # =============================================================================
@@ -1006,10 +900,9 @@ build _deps/glfw-build/examples/splitview.exe: C_EXECUTABLE_LINKER__splitview_ _
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\splitview.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\splitview.dir\
   TARGET_FILE = _deps\glfw-build\examples\splitview.exe
   TARGET_IMPLIB = _deps\glfw-build\examples\libsplitview.dll.a
-  TARGET_PDB = _deps\glfw-build\examples\splitview.pdb
+  TARGET_PDB = splitview.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target wave
@@ -1026,16 +919,12 @@ build _deps/glfw-build/examples/CMakeFiles/wave.dir/wave.c.obj: C_COMPILER__wave
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\wave.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\wave.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\wave.dir\
-  TARGET_PDB = _deps\glfw-build\examples\wave.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/wave.dir/glfw.rc.obj: RC_COMPILER__wave_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/examples/glfw.rc || cmake_object_order_depends_target_wave
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\wave.dir\glfw.rc.obj.d
   INCLUDES = -I "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I "C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\wave.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\wave.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\wave.dir\
-  TARGET_PDB = _deps\glfw-build\examples\wave.pdb
 
 build _deps/glfw-build/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.obj: C_COMPILER__wave_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_wave
   DEP_FILE = _deps\glfw-build\examples\CMakeFiles\wave.dir\__\deps\glad_gl.c.obj.d
@@ -1043,8 +932,6 @@ build _deps/glfw-build/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.obj: C_COM
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\wave.dir
   OBJECT_FILE_DIR = _deps\glfw-build\examples\CMakeFiles\wave.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\wave.dir\
-  TARGET_PDB = _deps\glfw-build\examples\wave.pdb
 
 
 # =============================================================================
@@ -1060,10 +947,9 @@ build _deps/glfw-build/examples/wave.exe: C_EXECUTABLE_LINKER__wave_ _deps/glfw-
   OBJECT_DIR = _deps\glfw-build\examples\CMakeFiles\wave.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\examples\CMakeFiles\wave.dir\
   TARGET_FILE = _deps\glfw-build\examples\wave.exe
   TARGET_IMPLIB = _deps\glfw-build\examples\libwave.dll.a
-  TARGET_PDB = _deps\glfw-build\examples\wave.pdb
+  TARGET_PDB = wave.exe.dbg
 
 
 #############################################
@@ -1150,8 +1036,6 @@ build _deps/glfw-build/tests/CMakeFiles/clipboard.dir/clipboard.c.obj: C_COMPILE
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\clipboard.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\clipboard.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\clipboard.dir\
-  TARGET_PDB = _deps\glfw-build\tests\clipboard.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.obj: C_COMPILER__clipboard_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/getopt.c || cmake_object_order_depends_target_clipboard
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\clipboard.dir\__\deps\getopt.c.obj.d
@@ -1159,8 +1043,6 @@ build _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.obj: C_CO
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\clipboard.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\clipboard.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\clipboard.dir\
-  TARGET_PDB = _deps\glfw-build\tests\clipboard.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.obj: C_COMPILER__clipboard_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_clipboard
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\clipboard.dir\__\deps\glad_gl.c.obj.d
@@ -1168,8 +1050,6 @@ build _deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.obj: C_C
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\clipboard.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\clipboard.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\clipboard.dir\
-  TARGET_PDB = _deps\glfw-build\tests\clipboard.pdb
 
 
 # =============================================================================
@@ -1184,10 +1064,9 @@ build _deps/glfw-build/tests/clipboard.exe: C_EXECUTABLE_LINKER__clipboard_ _dep
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\clipboard.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\clipboard.dir\
   TARGET_FILE = _deps\glfw-build\tests\clipboard.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libclipboard.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\clipboard.pdb
+  TARGET_PDB = clipboard.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target events
@@ -1204,8 +1083,6 @@ build _deps/glfw-build/tests/CMakeFiles/events.dir/events.c.obj: C_COMPILER__eve
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\events.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\events.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\events.dir\
-  TARGET_PDB = _deps\glfw-build\tests\events.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/events.dir/__/deps/getopt.c.obj: C_COMPILER__events_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/getopt.c || cmake_object_order_depends_target_events
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\events.dir\__\deps\getopt.c.obj.d
@@ -1213,8 +1090,6 @@ build _deps/glfw-build/tests/CMakeFiles/events.dir/__/deps/getopt.c.obj: C_COMPI
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\events.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\events.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\events.dir\
-  TARGET_PDB = _deps\glfw-build\tests\events.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/events.dir/__/deps/glad_gl.c.obj: C_COMPILER__events_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_events
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\events.dir\__\deps\glad_gl.c.obj.d
@@ -1222,8 +1097,6 @@ build _deps/glfw-build/tests/CMakeFiles/events.dir/__/deps/glad_gl.c.obj: C_COMP
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\events.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\events.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\events.dir\
-  TARGET_PDB = _deps\glfw-build\tests\events.pdb
 
 
 # =============================================================================
@@ -1238,10 +1111,9 @@ build _deps/glfw-build/tests/events.exe: C_EXECUTABLE_LINKER__events_ _deps/glfw
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\events.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\events.dir\
   TARGET_FILE = _deps\glfw-build\tests\events.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libevents.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\events.pdb
+  TARGET_PDB = events.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target msaa
@@ -1258,8 +1130,6 @@ build _deps/glfw-build/tests/CMakeFiles/msaa.dir/msaa.c.obj: C_COMPILER__msaa_un
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\msaa.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\msaa.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\msaa.dir\
-  TARGET_PDB = _deps\glfw-build\tests\msaa.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/msaa.dir/__/deps/getopt.c.obj: C_COMPILER__msaa_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/getopt.c || cmake_object_order_depends_target_msaa
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\msaa.dir\__\deps\getopt.c.obj.d
@@ -1267,8 +1137,6 @@ build _deps/glfw-build/tests/CMakeFiles/msaa.dir/__/deps/getopt.c.obj: C_COMPILE
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\msaa.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\msaa.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\msaa.dir\
-  TARGET_PDB = _deps\glfw-build\tests\msaa.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/msaa.dir/__/deps/glad_gl.c.obj: C_COMPILER__msaa_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_msaa
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\msaa.dir\__\deps\glad_gl.c.obj.d
@@ -1276,8 +1144,6 @@ build _deps/glfw-build/tests/CMakeFiles/msaa.dir/__/deps/glad_gl.c.obj: C_COMPIL
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\msaa.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\msaa.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\msaa.dir\
-  TARGET_PDB = _deps\glfw-build\tests\msaa.pdb
 
 
 # =============================================================================
@@ -1292,10 +1158,9 @@ build _deps/glfw-build/tests/msaa.exe: C_EXECUTABLE_LINKER__msaa_ _deps/glfw-bui
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\msaa.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\msaa.dir\
   TARGET_FILE = _deps\glfw-build\tests\msaa.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libmsaa.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\msaa.pdb
+  TARGET_PDB = msaa.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target glfwinfo
@@ -1312,8 +1177,6 @@ build _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.obj: C_COMPILER_
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\glfwinfo.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\glfwinfo.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\glfwinfo.dir\
-  TARGET_PDB = _deps\glfw-build\tests\glfwinfo.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.obj: C_COMPILER__glfwinfo_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/getopt.c || cmake_object_order_depends_target_glfwinfo
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\glfwinfo.dir\__\deps\getopt.c.obj.d
@@ -1321,8 +1184,6 @@ build _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.obj: C_COM
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\glfwinfo.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\glfwinfo.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\glfwinfo.dir\
-  TARGET_PDB = _deps\glfw-build\tests\glfwinfo.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.obj: C_COMPILER__glfwinfo_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_glfwinfo
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\glfwinfo.dir\__\deps\glad_gl.c.obj.d
@@ -1330,8 +1191,6 @@ build _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.obj: C_CO
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\glfwinfo.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\glfwinfo.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\glfwinfo.dir\
-  TARGET_PDB = _deps\glfw-build\tests\glfwinfo.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.obj: C_COMPILER__glfwinfo_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_vulkan.c || cmake_object_order_depends_target_glfwinfo
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\glfwinfo.dir\__\deps\glad_vulkan.c.obj.d
@@ -1339,8 +1198,6 @@ build _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.obj: 
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\glfwinfo.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\glfwinfo.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\glfwinfo.dir\
-  TARGET_PDB = _deps\glfw-build\tests\glfwinfo.pdb
 
 
 # =============================================================================
@@ -1355,10 +1212,9 @@ build _deps/glfw-build/tests/glfwinfo.exe: C_EXECUTABLE_LINKER__glfwinfo_ _deps/
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\glfwinfo.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\glfwinfo.dir\
   TARGET_FILE = _deps\glfw-build\tests\glfwinfo.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libglfwinfo.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\glfwinfo.pdb
+  TARGET_PDB = glfwinfo.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target iconify
@@ -1375,8 +1231,6 @@ build _deps/glfw-build/tests/CMakeFiles/iconify.dir/iconify.c.obj: C_COMPILER__i
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\iconify.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\iconify.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\iconify.dir\
-  TARGET_PDB = _deps\glfw-build\tests\iconify.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj: C_COMPILER__iconify_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/getopt.c || cmake_object_order_depends_target_iconify
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\iconify.dir\__\deps\getopt.c.obj.d
@@ -1384,8 +1238,6 @@ build _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj: C_COMP
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\iconify.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\iconify.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\iconify.dir\
-  TARGET_PDB = _deps\glfw-build\tests\iconify.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj: C_COMPILER__iconify_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_iconify
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\iconify.dir\__\deps\glad_gl.c.obj.d
@@ -1393,8 +1245,6 @@ build _deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj: C_COM
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\iconify.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\iconify.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\iconify.dir\
-  TARGET_PDB = _deps\glfw-build\tests\iconify.pdb
 
 
 # =============================================================================
@@ -1409,10 +1259,9 @@ build _deps/glfw-build/tests/iconify.exe: C_EXECUTABLE_LINKER__iconify_ _deps/gl
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\iconify.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\iconify.dir\
   TARGET_FILE = _deps\glfw-build\tests\iconify.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libiconify.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\iconify.pdb
+  TARGET_PDB = iconify.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target monitors
@@ -1429,8 +1278,6 @@ build _deps/glfw-build/tests/CMakeFiles/monitors.dir/monitors.c.obj: C_COMPILER_
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\monitors.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\monitors.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\monitors.dir\
-  TARGET_PDB = _deps\glfw-build\tests\monitors.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/monitors.dir/__/deps/getopt.c.obj: C_COMPILER__monitors_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/getopt.c || cmake_object_order_depends_target_monitors
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\monitors.dir\__\deps\getopt.c.obj.d
@@ -1438,8 +1285,6 @@ build _deps/glfw-build/tests/CMakeFiles/monitors.dir/__/deps/getopt.c.obj: C_COM
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\monitors.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\monitors.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\monitors.dir\
-  TARGET_PDB = _deps\glfw-build\tests\monitors.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/monitors.dir/__/deps/glad_gl.c.obj: C_COMPILER__monitors_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_monitors
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\monitors.dir\__\deps\glad_gl.c.obj.d
@@ -1447,8 +1292,6 @@ build _deps/glfw-build/tests/CMakeFiles/monitors.dir/__/deps/glad_gl.c.obj: C_CO
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\monitors.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\monitors.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\monitors.dir\
-  TARGET_PDB = _deps\glfw-build\tests\monitors.pdb
 
 
 # =============================================================================
@@ -1463,10 +1306,9 @@ build _deps/glfw-build/tests/monitors.exe: C_EXECUTABLE_LINKER__monitors_ _deps/
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\monitors.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\monitors.dir\
   TARGET_FILE = _deps\glfw-build\tests\monitors.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libmonitors.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\monitors.pdb
+  TARGET_PDB = monitors.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target reopen
@@ -1483,8 +1325,6 @@ build _deps/glfw-build/tests/CMakeFiles/reopen.dir/reopen.c.obj: C_COMPILER__reo
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\reopen.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\reopen.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\reopen.dir\
-  TARGET_PDB = _deps\glfw-build\tests\reopen.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/reopen.dir/__/deps/glad_gl.c.obj: C_COMPILER__reopen_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_reopen
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\reopen.dir\__\deps\glad_gl.c.obj.d
@@ -1492,8 +1332,6 @@ build _deps/glfw-build/tests/CMakeFiles/reopen.dir/__/deps/glad_gl.c.obj: C_COMP
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\reopen.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\reopen.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\reopen.dir\
-  TARGET_PDB = _deps\glfw-build\tests\reopen.pdb
 
 
 # =============================================================================
@@ -1508,10 +1346,9 @@ build _deps/glfw-build/tests/reopen.exe: C_EXECUTABLE_LINKER__reopen_ _deps/glfw
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\reopen.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\reopen.dir\
   TARGET_FILE = _deps\glfw-build\tests\reopen.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libreopen.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\reopen.pdb
+  TARGET_PDB = reopen.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target cursor
@@ -1528,8 +1365,6 @@ build _deps/glfw-build/tests/CMakeFiles/cursor.dir/cursor.c.obj: C_COMPILER__cur
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\cursor.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\cursor.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\cursor.dir\
-  TARGET_PDB = _deps\glfw-build\tests\cursor.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.obj: C_COMPILER__cursor_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_cursor
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\cursor.dir\__\deps\glad_gl.c.obj.d
@@ -1537,8 +1372,6 @@ build _deps/glfw-build/tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.obj: C_COMP
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\cursor.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\cursor.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\cursor.dir\
-  TARGET_PDB = _deps\glfw-build\tests\cursor.pdb
 
 
 # =============================================================================
@@ -1553,10 +1386,9 @@ build _deps/glfw-build/tests/cursor.exe: C_EXECUTABLE_LINKER__cursor_ _deps/glfw
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\cursor.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\cursor.dir\
   TARGET_FILE = _deps\glfw-build\tests\cursor.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libcursor.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\cursor.pdb
+  TARGET_PDB = cursor.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target empty
@@ -1573,8 +1405,6 @@ build _deps/glfw-build/tests/CMakeFiles/empty.dir/empty.c.obj: C_COMPILER__empty
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\empty.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\empty.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\empty.dir\
-  TARGET_PDB = _deps\glfw-build\tests\empty.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.obj: C_COMPILER__empty_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/tinycthread.c || cmake_object_order_depends_target_empty
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\empty.dir\__\deps\tinycthread.c.obj.d
@@ -1582,8 +1412,6 @@ build _deps/glfw-build/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.obj: C_C
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\empty.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\empty.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\empty.dir\
-  TARGET_PDB = _deps\glfw-build\tests\empty.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/empty.dir/__/deps/glad_gl.c.obj: C_COMPILER__empty_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_empty
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\empty.dir\__\deps\glad_gl.c.obj.d
@@ -1591,8 +1419,6 @@ build _deps/glfw-build/tests/CMakeFiles/empty.dir/__/deps/glad_gl.c.obj: C_COMPI
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\empty.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\empty.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\empty.dir\
-  TARGET_PDB = _deps\glfw-build\tests\empty.pdb
 
 
 # =============================================================================
@@ -1608,10 +1434,9 @@ build _deps/glfw-build/tests/empty.exe: C_EXECUTABLE_LINKER__empty_ _deps/glfw-b
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\empty.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\empty.dir\
   TARGET_FILE = _deps\glfw-build\tests\empty.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libempty.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\empty.pdb
+  TARGET_PDB = empty.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target gamma
@@ -1628,8 +1453,6 @@ build _deps/glfw-build/tests/CMakeFiles/gamma.dir/gamma.c.obj: C_COMPILER__gamma
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\gamma.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\gamma.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\gamma.dir\
-  TARGET_PDB = _deps\glfw-build\tests\gamma.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj: C_COMPILER__gamma_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_gamma
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\gamma.dir\__\deps\glad_gl.c.obj.d
@@ -1637,8 +1460,6 @@ build _deps/glfw-build/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj: C_COMPI
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\gamma.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\gamma.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\gamma.dir\
-  TARGET_PDB = _deps\glfw-build\tests\gamma.pdb
 
 
 # =============================================================================
@@ -1654,10 +1475,9 @@ build _deps/glfw-build/tests/gamma.exe: C_EXECUTABLE_LINKER__gamma_ _deps/glfw-b
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\gamma.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\gamma.dir\
   TARGET_FILE = _deps\glfw-build\tests\gamma.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libgamma.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\gamma.pdb
+  TARGET_PDB = gamma.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target icon
@@ -1674,8 +1494,6 @@ build _deps/glfw-build/tests/CMakeFiles/icon.dir/icon.c.obj: C_COMPILER__icon_un
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\icon.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\icon.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\icon.dir\
-  TARGET_PDB = _deps\glfw-build\tests\icon.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.obj: C_COMPILER__icon_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_icon
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\icon.dir\__\deps\glad_gl.c.obj.d
@@ -1683,8 +1501,6 @@ build _deps/glfw-build/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.obj: C_COMPIL
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\icon.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\icon.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\icon.dir\
-  TARGET_PDB = _deps\glfw-build\tests\icon.pdb
 
 
 # =============================================================================
@@ -1700,10 +1516,9 @@ build _deps/glfw-build/tests/icon.exe: C_EXECUTABLE_LINKER__icon_ _deps/glfw-bui
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\icon.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\icon.dir\
   TARGET_FILE = _deps\glfw-build\tests\icon.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libicon.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\icon.pdb
+  TARGET_PDB = icon.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target inputlag
@@ -1720,8 +1535,6 @@ build _deps/glfw-build/tests/CMakeFiles/inputlag.dir/inputlag.c.obj: C_COMPILER_
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\inputlag.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\inputlag.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\inputlag.dir\
-  TARGET_PDB = _deps\glfw-build\tests\inputlag.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/inputlag.dir/__/deps/getopt.c.obj: C_COMPILER__inputlag_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/getopt.c || cmake_object_order_depends_target_inputlag
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\inputlag.dir\__\deps\getopt.c.obj.d
@@ -1729,8 +1542,6 @@ build _deps/glfw-build/tests/CMakeFiles/inputlag.dir/__/deps/getopt.c.obj: C_COM
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\inputlag.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\inputlag.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\inputlag.dir\
-  TARGET_PDB = _deps\glfw-build\tests\inputlag.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/inputlag.dir/__/deps/glad_gl.c.obj: C_COMPILER__inputlag_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_inputlag
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\inputlag.dir\__\deps\glad_gl.c.obj.d
@@ -1738,8 +1549,6 @@ build _deps/glfw-build/tests/CMakeFiles/inputlag.dir/__/deps/glad_gl.c.obj: C_CO
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\inputlag.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\inputlag.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\inputlag.dir\
-  TARGET_PDB = _deps\glfw-build\tests\inputlag.pdb
 
 
 # =============================================================================
@@ -1755,10 +1564,9 @@ build _deps/glfw-build/tests/inputlag.exe: C_EXECUTABLE_LINKER__inputlag_ _deps/
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\inputlag.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\inputlag.dir\
   TARGET_FILE = _deps\glfw-build\tests\inputlag.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libinputlag.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\inputlag.pdb
+  TARGET_PDB = inputlag.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target joysticks
@@ -1775,8 +1583,6 @@ build _deps/glfw-build/tests/CMakeFiles/joysticks.dir/joysticks.c.obj: C_COMPILE
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\joysticks.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\joysticks.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\joysticks.dir\
-  TARGET_PDB = _deps\glfw-build\tests\joysticks.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/joysticks.dir/__/deps/glad_gl.c.obj: C_COMPILER__joysticks_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_joysticks
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\joysticks.dir\__\deps\glad_gl.c.obj.d
@@ -1784,8 +1590,6 @@ build _deps/glfw-build/tests/CMakeFiles/joysticks.dir/__/deps/glad_gl.c.obj: C_C
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\joysticks.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\joysticks.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\joysticks.dir\
-  TARGET_PDB = _deps\glfw-build\tests\joysticks.pdb
 
 
 # =============================================================================
@@ -1801,10 +1605,9 @@ build _deps/glfw-build/tests/joysticks.exe: C_EXECUTABLE_LINKER__joysticks_ _dep
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\joysticks.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\joysticks.dir\
   TARGET_FILE = _deps\glfw-build\tests\joysticks.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libjoysticks.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\joysticks.pdb
+  TARGET_PDB = joysticks.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target opacity
@@ -1821,8 +1624,6 @@ build _deps/glfw-build/tests/CMakeFiles/opacity.dir/opacity.c.obj: C_COMPILER__o
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\opacity.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\opacity.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\opacity.dir\
-  TARGET_PDB = _deps\glfw-build\tests\opacity.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/opacity.dir/__/deps/glad_gl.c.obj: C_COMPILER__opacity_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_opacity
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\opacity.dir\__\deps\glad_gl.c.obj.d
@@ -1830,8 +1631,6 @@ build _deps/glfw-build/tests/CMakeFiles/opacity.dir/__/deps/glad_gl.c.obj: C_COM
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\opacity.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\opacity.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\opacity.dir\
-  TARGET_PDB = _deps\glfw-build\tests\opacity.pdb
 
 
 # =============================================================================
@@ -1847,10 +1646,9 @@ build _deps/glfw-build/tests/opacity.exe: C_EXECUTABLE_LINKER__opacity_ _deps/gl
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\opacity.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\opacity.dir\
   TARGET_FILE = _deps\glfw-build\tests\opacity.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libopacity.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\opacity.pdb
+  TARGET_PDB = opacity.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target tearing
@@ -1867,8 +1665,6 @@ build _deps/glfw-build/tests/CMakeFiles/tearing.dir/tearing.c.obj: C_COMPILER__t
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\tearing.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\tearing.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\tearing.dir\
-  TARGET_PDB = _deps\glfw-build\tests\tearing.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj: C_COMPILER__tearing_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_tearing
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\tearing.dir\__\deps\glad_gl.c.obj.d
@@ -1876,8 +1672,6 @@ build _deps/glfw-build/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj: C_COM
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\tearing.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\tearing.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\tearing.dir\
-  TARGET_PDB = _deps\glfw-build\tests\tearing.pdb
 
 
 # =============================================================================
@@ -1893,10 +1687,9 @@ build _deps/glfw-build/tests/tearing.exe: C_EXECUTABLE_LINKER__tearing_ _deps/gl
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\tearing.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\tearing.dir\
   TARGET_FILE = _deps\glfw-build\tests\tearing.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libtearing.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\tearing.pdb
+  TARGET_PDB = tearing.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target threads
@@ -1913,8 +1706,6 @@ build _deps/glfw-build/tests/CMakeFiles/threads.dir/threads.c.obj: C_COMPILER__t
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\threads.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\threads.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\threads.dir\
-  TARGET_PDB = _deps\glfw-build\tests\threads.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.obj: C_COMPILER__threads_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/tinycthread.c || cmake_object_order_depends_target_threads
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\threads.dir\__\deps\tinycthread.c.obj.d
@@ -1922,8 +1713,6 @@ build _deps/glfw-build/tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.obj: C
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\threads.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\threads.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\threads.dir\
-  TARGET_PDB = _deps\glfw-build\tests\threads.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/threads.dir/__/deps/glad_gl.c.obj: C_COMPILER__threads_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_threads
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\threads.dir\__\deps\glad_gl.c.obj.d
@@ -1931,8 +1720,6 @@ build _deps/glfw-build/tests/CMakeFiles/threads.dir/__/deps/glad_gl.c.obj: C_COM
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\threads.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\threads.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\threads.dir\
-  TARGET_PDB = _deps\glfw-build\tests\threads.pdb
 
 
 # =============================================================================
@@ -1948,10 +1735,9 @@ build _deps/glfw-build/tests/threads.exe: C_EXECUTABLE_LINKER__threads_ _deps/gl
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\threads.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\threads.dir\
   TARGET_FILE = _deps\glfw-build\tests\threads.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libthreads.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\threads.pdb
+  TARGET_PDB = threads.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target timeout
@@ -1968,8 +1754,6 @@ build _deps/glfw-build/tests/CMakeFiles/timeout.dir/timeout.c.obj: C_COMPILER__t
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\timeout.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\timeout.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\timeout.dir\
-  TARGET_PDB = _deps\glfw-build\tests\timeout.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/timeout.dir/__/deps/glad_gl.c.obj: C_COMPILER__timeout_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_timeout
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\timeout.dir\__\deps\glad_gl.c.obj.d
@@ -1977,8 +1761,6 @@ build _deps/glfw-build/tests/CMakeFiles/timeout.dir/__/deps/glad_gl.c.obj: C_COM
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\timeout.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\timeout.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\timeout.dir\
-  TARGET_PDB = _deps\glfw-build\tests\timeout.pdb
 
 
 # =============================================================================
@@ -1994,10 +1776,9 @@ build _deps/glfw-build/tests/timeout.exe: C_EXECUTABLE_LINKER__timeout_ _deps/gl
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\timeout.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\timeout.dir\
   TARGET_FILE = _deps\glfw-build\tests\timeout.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libtimeout.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\timeout.pdb
+  TARGET_PDB = timeout.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target title
@@ -2014,8 +1795,6 @@ build _deps/glfw-build/tests/CMakeFiles/title.dir/title.c.obj: C_COMPILER__title
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\title.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\title.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\title.dir\
-  TARGET_PDB = _deps\glfw-build\tests\title.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/title.dir/__/deps/glad_gl.c.obj: C_COMPILER__title_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_title
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\title.dir\__\deps\glad_gl.c.obj.d
@@ -2023,8 +1802,6 @@ build _deps/glfw-build/tests/CMakeFiles/title.dir/__/deps/glad_gl.c.obj: C_COMPI
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\title.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\title.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\title.dir\
-  TARGET_PDB = _deps\glfw-build\tests\title.pdb
 
 
 # =============================================================================
@@ -2040,10 +1817,9 @@ build _deps/glfw-build/tests/title.exe: C_EXECUTABLE_LINKER__title_ _deps/glfw-b
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\title.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\title.dir\
   TARGET_FILE = _deps\glfw-build\tests\title.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libtitle.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\title.pdb
+  TARGET_PDB = title.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target triangle-vulkan
@@ -2060,8 +1836,6 @@ build _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.ob
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\triangle-vulkan.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\triangle-vulkan.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\triangle-vulkan.dir\
-  TARGET_PDB = _deps\glfw-build\tests\triangle-vulkan.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.obj: C_COMPILER__triangle-vulkan_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_vulkan.c || cmake_object_order_depends_target_triangle-vulkan
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\triangle-vulkan.dir\__\deps\glad_vulkan.c.obj.d
@@ -2069,8 +1843,6 @@ build _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\triangle-vulkan.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\triangle-vulkan.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\triangle-vulkan.dir\
-  TARGET_PDB = _deps\glfw-build\tests\triangle-vulkan.pdb
 
 
 # =============================================================================
@@ -2086,10 +1858,9 @@ build _deps/glfw-build/tests/triangle-vulkan.exe: C_EXECUTABLE_LINKER__triangle-
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\triangle-vulkan.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\triangle-vulkan.dir\
   TARGET_FILE = _deps\glfw-build\tests\triangle-vulkan.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libtriangle-vulkan.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\triangle-vulkan.pdb
+  TARGET_PDB = triangle-vulkan.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target windows
@@ -2106,8 +1877,6 @@ build _deps/glfw-build/tests/CMakeFiles/windows.dir/windows.c.obj: C_COMPILER__w
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\windows.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\windows.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\windows.dir\
-  TARGET_PDB = _deps\glfw-build\tests\windows.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/windows.dir/__/deps/getopt.c.obj: C_COMPILER__windows_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/getopt.c || cmake_object_order_depends_target_windows
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\windows.dir\__\deps\getopt.c.obj.d
@@ -2115,8 +1884,6 @@ build _deps/glfw-build/tests/CMakeFiles/windows.dir/__/deps/getopt.c.obj: C_COMP
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\windows.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\windows.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\windows.dir\
-  TARGET_PDB = _deps\glfw-build\tests\windows.pdb
 
 build _deps/glfw-build/tests/CMakeFiles/windows.dir/__/deps/glad_gl.c.obj: C_COMPILER__windows_unscanned_ C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps/glad_gl.c || cmake_object_order_depends_target_windows
   DEP_FILE = _deps\glfw-build\tests\CMakeFiles\windows.dir\__\deps\glad_gl.c.obj.d
@@ -2124,8 +1891,6 @@ build _deps/glfw-build/tests/CMakeFiles/windows.dir/__/deps/glad_gl.c.obj: C_COM
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/deps" -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glfw-src/include"
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\windows.dir
   OBJECT_FILE_DIR = _deps\glfw-build\tests\CMakeFiles\windows.dir\__\deps
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\windows.dir\
-  TARGET_PDB = _deps\glfw-build\tests\windows.pdb
 
 
 # =============================================================================
@@ -2141,10 +1906,9 @@ build _deps/glfw-build/tests/windows.exe: C_EXECUTABLE_LINKER__windows_ _deps/gl
   OBJECT_DIR = _deps\glfw-build\tests\CMakeFiles\windows.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\tests\CMakeFiles\windows.dir\
   TARGET_FILE = _deps\glfw-build\tests\windows.exe
   TARGET_IMPLIB = _deps\glfw-build\tests\libwindows.dll.a
-  TARGET_PDB = _deps\glfw-build\tests\windows.pdb
+  TARGET_PDB = windows.exe.dbg
 
 
 #############################################
@@ -2236,8 +2000,6 @@ build _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.obj: C_COMPILER__glad_unsc
   INCLUDES = -I"C:/msys64/home/Comrade Chocobo/robot_arm_ik_simulator/build/_deps/glad-build/include"
   OBJECT_DIR = _deps\glad-build\CMakeFiles\glad.dir
   OBJECT_FILE_DIR = _deps\glad-build\CMakeFiles\glad.dir\src
-  TARGET_COMPILE_PDB = _deps\glad-build\CMakeFiles\glad.dir\glad.pdb
-  TARGET_PDB = _deps\glad-build\libglad.pdb
 
 
 # =============================================================================
@@ -2251,9 +2013,8 @@ build _deps/glad-build/libglad.a: C_STATIC_LIBRARY_LINKER__glad_ _deps/glad-buil
   OBJECT_DIR = _deps\glad-build\CMakeFiles\glad.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glad-build\CMakeFiles\glad.dir\glad.pdb
   TARGET_FILE = _deps\glad-build\libglad.a
-  TARGET_PDB = _deps\glad-build\libglad.pdb
+  TARGET_PDB = glad.a.dbg
 
 
 #############################################
@@ -2678,14 +2439,14 @@ build _deps/glm-build/glm/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/CMakeLists.txt C$:/msys64/ucrt64/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c C$:/msys64/ucrt64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDependentOption.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakePackageConfigHelpers.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CheckCCompilerFlag.cmake C$:/msys64/ucrt64/share/cmake/Modules/CheckCSourceCompiles.cmake C$:/msys64/ucrt64/share/cmake/Modules/CheckIncludeFile.cmake C$:/msys64/ucrt64/share/cmake/Modules/CheckLibraryExists.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake C$:/msys64/ucrt64/share/cmake/Modules/FetchContent.cmake C$:/msys64/ucrt64/share/cmake/Modules/FetchContent/CMakeLists.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/FindDoxygen.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindGit.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindOpenGL.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindPython.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindPython/Support.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindThreads.cmake C$:/msys64/ucrt64/share/cmake/Modules/GNUInstallDirs.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CheckCompilerFlag.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CheckSourceCompiles.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/ucrt64/share/cmake/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.31.2/CMakeCCompiler.cmake CMakeFiles/3.31.2/CMakeCXXCompiler.cmake CMakeFiles/3.31.2/CMakeRCCompiler.cmake CMakeFiles/3.31.2/CMakeSystem.cmake _deps/glad-src/CMakeLists.txt _deps/glfw-src/CMakeLists.txt _deps/glfw-src/cmake_uninstall.cmake.in _deps/glfw-src/examples/CMakeLists.txt _deps/glfw-src/src/CMakeLists.txt _deps/glfw-src/src/glfw3.pc.in _deps/glfw-src/src/glfw3Config.cmake.in _deps/glfw-src/src/glfw_config.h.in _deps/glfw-src/tests/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/CMakeLists.txt C$:/msys64/ucrt64/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDependentOption.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakePackageConfigHelpers.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/CheckCCompilerFlag.cmake C$:/msys64/ucrt64/share/cmake/Modules/CheckCSourceCompiles.cmake C$:/msys64/ucrt64/share/cmake/Modules/CheckIncludeFile.cmake C$:/msys64/ucrt64/share/cmake/Modules/CheckLibraryExists.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake C$:/msys64/ucrt64/share/cmake/Modules/FetchContent.cmake C$:/msys64/ucrt64/share/cmake/Modules/FetchContent/CMakeLists.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/FindDoxygen.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindGit.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindOpenGL.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindPython.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindPython/Support.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindThreads.cmake C$:/msys64/ucrt64/share/cmake/Modules/GNUInstallDirs.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CheckCompilerFlag.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CheckSourceCompiles.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/ucrt64/share/cmake/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.31.2/CMakeCCompiler.cmake CMakeFiles/3.31.2/CMakeCXXCompiler.cmake CMakeFiles/3.31.2/CMakeRCCompiler.cmake CMakeFiles/3.31.2/CMakeSystem.cmake _deps/glad-src/CMakeLists.txt _deps/glfw-src/CMakeLists.txt _deps/glfw-src/cmake_uninstall.cmake.in _deps/glfw-src/examples/CMakeLists.txt _deps/glfw-src/src/CMakeLists.txt _deps/glfw-src/src/glfw3.pc.in _deps/glfw-src/src/glfw3Config.cmake.in _deps/glfw-src/src/glfw_config.h.in _deps/glfw-src/tests/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/CMakeLists.txt C$:/msys64/ucrt64/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c C$:/msys64/ucrt64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDependentOption.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakePackageConfigHelpers.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CheckCCompilerFlag.cmake C$:/msys64/ucrt64/share/cmake/Modules/CheckCSourceCompiles.cmake C$:/msys64/ucrt64/share/cmake/Modules/CheckIncludeFile.cmake C$:/msys64/ucrt64/share/cmake/Modules/CheckLibraryExists.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake C$:/msys64/ucrt64/share/cmake/Modules/FetchContent.cmake C$:/msys64/ucrt64/share/cmake/Modules/FetchContent/CMakeLists.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/FindDoxygen.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindGit.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindOpenGL.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindPython.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindPython/Support.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindThreads.cmake C$:/msys64/ucrt64/share/cmake/Modules/GNUInstallDirs.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CheckCompilerFlag.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CheckSourceCompiles.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/ucrt64/share/cmake/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.31.2/CMakeCCompiler.cmake CMakeFiles/3.31.2/CMakeCXXCompiler.cmake CMakeFiles/3.31.2/CMakeRCCompiler.cmake CMakeFiles/3.31.2/CMakeSystem.cmake _deps/glad-src/CMakeLists.txt _deps/glfw-src/CMakeLists.txt _deps/glfw-src/cmake_uninstall.cmake.in _deps/glfw-src/examples/CMakeLists.txt _deps/glfw-src/src/CMakeLists.txt _deps/glfw-src/src/glfw3.pc.in _deps/glfw-src/src/glfw3Config.cmake.in _deps/glfw-src/src/glfw_config.h.in _deps/glfw-src/tests/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt: phony
+build C$:/msys64/home/Comrade$ Chocobo/robot_arm_ik_simulator/CMakeLists.txt C$:/msys64/ucrt64/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDependentOption.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakePackageConfigHelpers.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/CheckCCompilerFlag.cmake C$:/msys64/ucrt64/share/cmake/Modules/CheckCSourceCompiles.cmake C$:/msys64/ucrt64/share/cmake/Modules/CheckIncludeFile.cmake C$:/msys64/ucrt64/share/cmake/Modules/CheckLibraryExists.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake C$:/msys64/ucrt64/share/cmake/Modules/FetchContent.cmake C$:/msys64/ucrt64/share/cmake/Modules/FetchContent/CMakeLists.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/FindDoxygen.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindGit.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindOpenGL.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindPython.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindPython/Support.cmake C$:/msys64/ucrt64/share/cmake/Modules/FindThreads.cmake C$:/msys64/ucrt64/share/cmake/Modules/GNUInstallDirs.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CheckCompilerFlag.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CheckSourceCompiles.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/ucrt64/share/cmake/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.31.2/CMakeCCompiler.cmake CMakeFiles/3.31.2/CMakeCXXCompiler.cmake CMakeFiles/3.31.2/CMakeRCCompiler.cmake CMakeFiles/3.31.2/CMakeSystem.cmake _deps/glad-src/CMakeLists.txt _deps/glfw-src/CMakeLists.txt _deps/glfw-src/cmake_uninstall.cmake.in _deps/glfw-src/examples/CMakeLists.txt _deps/glfw-src/src/CMakeLists.txt _deps/glfw-src/src/glfw3.pc.in _deps/glfw-src/src/glfw3Config.cmake.in _deps/glfw-src/src/glfw_config.h.in _deps/glfw-src/tests/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt: phony
 
 
 #############################################
