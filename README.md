@@ -47,3 +47,8 @@ This project uses CMake for its build system. To build the project, follow these
 Updates 1:
 
 Length Parameter added to allow for differnet arm lengths.
+
+Updates 2:
+
+Added forward kinematics to check if drawing is possible.
+Added cancel button to stop mid drawing.
