@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/msys64/home/Comrade/robot_arm_ik_simulator/build/_deps/imgui_glfw-subbuild/CMakeFiles/imgui_glfw-populate"
+		},
+		{
+			"file" : "C:/msys64/home/Comrade/robot_arm_ik_simulator/build/_deps/imgui_glfw-subbuild/CMakeFiles/imgui_glfw-populate.rule"
+		},
+		{
+			"file" : "C:/msys64/home/Comrade/robot_arm_ik_simulator/build/_deps/imgui_glfw-subbuild/CMakeFiles/imgui_glfw-populate-complete.rule"
+		},
+		{
+			"file" : "C:/msys64/home/Comrade/robot_arm_ik_simulator/build/_deps/imgui_glfw-subbuild/imgui_glfw-populate-prefix/src/imgui_glfw-populate-stamp/imgui_glfw-populate-build.rule"
+		},
+		{
+			"file" : "C:/msys64/home/Comrade/robot_arm_ik_simulator/build/_deps/imgui_glfw-subbuild/imgui_glfw-populate-prefix/src/imgui_glfw-populate-stamp/imgui_glfw-populate-configure.rule"
+		},
+		{
+			"file" : "C:/msys64/home/Comrade/robot_arm_ik_simulator/build/_deps/imgui_glfw-subbuild/imgui_glfw-populate-prefix/src/imgui_glfw-populate-stamp/imgui_glfw-populate-download.rule"
+		},
+		{
+			"file" : "C:/msys64/home/Comrade/robot_arm_ik_simulator/build/_deps/imgui_glfw-subbuild/imgui_glfw-populate-prefix/src/imgui_glfw-populate-stamp/imgui_glfw-populate-install.rule"
+		},
+		{
+			"file" : "C:/msys64/home/Comrade/robot_arm_ik_simulator/build/_deps/imgui_glfw-subbuild/imgui_glfw-populate-prefix/src/imgui_glfw-populate-stamp/imgui_glfw-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/msys64/home/Comrade/robot_arm_ik_simulator/build/_deps/imgui_glfw-subbuild/imgui_glfw-populate-prefix/src/imgui_glfw-populate-stamp/imgui_glfw-populate-patch.rule"
+		},
+		{
+			"file" : "C:/msys64/home/Comrade/robot_arm_ik_simulator/build/_deps/imgui_glfw-subbuild/imgui_glfw-populate-prefix/src/imgui_glfw-populate-stamp/imgui_glfw-populate-test.rule"
+		},
+		{
+			"file" : "C:/msys64/home/Comrade/robot_arm_ik_simulator/build/_deps/imgui_glfw-subbuild/imgui_glfw-populate-prefix/src/imgui_glfw-populate-stamp/imgui_glfw-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imgui_glfw-populate"
+		],
+		"name" : "imgui_glfw-populate"
+	}
+}
