@@ -1,7 +1,7 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-// Dear ImGui (assumed to be integrated with GLFW/OpenGL3 backends)
+// Dear ImGui integrated with GLFW/OpenGL3 backends
 #include "imgui.h"
 #include "imgui_impl_glfw.h"
 #include "imgui_impl_opengl3.h"
@@ -65,18 +65,15 @@ float cubeVertices[] = {
 };
 
 // ----- Joint Data -----
-// *** CHANGED ***
-// Added length field for each joint.
 enum JointType { YAW, PITCH };
 
 struct Joint {
     glm::vec3 axis;  
     float angle;     
     JointType type;
-    float length;   // newly added
+    float length;  
 };
 
-// *** CHANGED ***
 // Store newly added joint length from the UI.
 float newJointLength = 1.0f;
 
@@ -85,7 +82,6 @@ JointType uiSelectedJoint = YAW;
 
 // Each added joint used to be fixed at linkLength=1.0f. Now we store per-joint length instead.
 float maxReach() {
-    // *** CHANGED ***: sum all joint lengths.
     float total = 0.0f;
     for(const auto &j : joints) {
         total += j.length;
@@ -368,6 +364,47 @@ GLuint compileShader(GLenum type,const char* source){
     return shader;
 }
 
+std::vector<glm::vec3> generateDrawingPathPreview() {
+    std::vector<glm::vec3> tempPath;
+
+    if (joints.empty()) return tempPath;
+
+    std::vector<glm::vec3> positions = computeFK();
+    glm::vec3 ee = positions.back();
+    glm::vec3 camPos = computeCameraPos();
+    glm::vec3 viewDir = glm::normalize(glm::vec3(0, 0, 0) - camPos);
+    glm::vec3 up = glm::vec3(0, 0, 1);
+    glm::vec3 right = glm::normalize(glm::cross(viewDir, up));
+    up = glm::normalize(glm::cross(right, viewDir));
+    float d = glm::length(camPos);
+    float fov = glm::radians(45.0f);
+    float height = 2.0f * d * std::tan(fov / 2.0f);
+    float aspect = (float)WIDTH / (float)HEIGHT;
+    float width = height * aspect;
+    float S = std::min(width, height);
+    glm::vec3 center = camPos + viewDir * d;
+
+    std::vector<glm::vec2> heartPath;
+    const int numSegments = 100;
+    float scaleFactor = 0.015f;
+    for (int i = 0; i <= numSegments; i++) {
+        float t = (float)i / numSegments * 2.0f * glm::pi<float>();
+        float x = 16.f * std::pow(std::sin(t), 3);
+        float y = 13.f * std::cos(t) - 5.f * std::cos(2 * t)
+                  - 2.f * std::cos(3 * t) - std::cos(4 * t);
+        heartPath.push_back({ x * scaleFactor, (y + 6.f) * scaleFactor });
+    }
+
+    tempPath.push_back(ee);
+    for (const auto& pt : heartPath) {
+        glm::vec3 wPoint = center + (pt.x * S) * right + (pt.y * S) * up;
+        tempPath.push_back(wPoint);
+    }
+
+    return tempPath;
+}
+
+
 int main(){
     if(!glfwInit()){
         std::cerr<<"Failed to initialize GLFW\n";
@@ -499,35 +536,85 @@ int main(){
         ImGui_ImplOpenGL3_NewFrame();
         ImGui_ImplGlfw_NewFrame();
         ImGui::NewFrame();
+		
+		static std::vector<glm::vec3> previewPath;
 
-        ImGui::Begin("Robot Arm Controls");
-        if(ImGui::Button("Remove Last Joint") && !joints.empty()){
-            joints.pop_back();
-        }
+		ImGui::Begin("Robot Arm Controls");
+		if(ImGui::Button("Remove Last Joint") && !joints.empty()){
+			joints.pop_back();
+		}
 
-        const char* jointOptions[]={
-            "Yaw (rotate about Z, moves in XY)",
-            "Pitch (rotate about Y, moves in XZ)"
-        };
-        int currOption=(uiSelectedJoint==YAW) ? 0:1;
-        if(ImGui::Combo("New Joint Type",&currOption,jointOptions,IM_ARRAYSIZE(jointOptions))){
-            uiSelectedJoint=(currOption==0) ? YAW:PITCH;
-        }
+		const char* jointOptions[] = {
+			"Yaw (rotate about Z, moves in XY)",
+			"Pitch (rotate about Y, moves in XZ)"
+		};
+		int currOption = (uiSelectedJoint == YAW) ? 0 : 1;
+		if(ImGui::Combo("New Joint Type", &currOption, jointOptions, IM_ARRAYSIZE(jointOptions))){
+			uiSelectedJoint = (currOption == 0) ? YAW : PITCH;
+		}
 
-        // *** CHANGED ***: Add a drag float for newJointLength
-        ImGui::DragFloat("New Joint Length",&newJointLength,0.01f,0.1f,10.0f,"%.2f");
+		// Joint length control
+		ImGui::DragFloat("New Joint Length", &newJointLength, 0.01f, 0.1f, 10.0f, "%.2f");
 
-        ImGui::Text("Right-click (away from origin) to add a new joint.");
-        ImGui::Text("Left-click near the end effector (or arrows) to move.");
-        ImGui::Text("Middle-click to orbit camera.");
+		ImGui::Text("Right-click (away from origin) to add a new joint.");
+		ImGui::Text("Left-click near the end effector (or arrows) to move.");
+		ImGui::Text("Middle-click to orbit camera.");
 
-        if(ImGui::Button("Draw Picture")){
-            if(!joints.empty()){
-                initDrawingPath();
-                drawingFinished=false;
-            }
-        }
-        ImGui::End();
+		if (ImGui::Button("Draw Picture")) {
+			if (!joints.empty()) {
+				previewPath = generateDrawingPathPreview();
+				bool canDraw = true;
+				float reach = maxReach();
+				for (const auto& point : previewPath) {
+					if (glm::length(point) > reach) {
+						canDraw = false;
+						break;
+					}
+				}
+				if (canDraw) {
+					ImGui::OpenPopup("Can Draw");
+				} else {
+					ImGui::OpenPopup("Cannot Draw");
+				}
+			}
+		}
+
+		if (ImGui::BeginPopup("Can Draw")) {
+			ImGui::Text("The robot can draw this picture!");
+			if (ImGui::Button("Start Drawing")) {
+				drawingPath = previewPath;
+				drawingPathIndex = 1;
+				autoDrawing = true;
+				drawingFinished = false;
+				ImGui::CloseCurrentPopup();
+			}
+			ImGui::SameLine();
+			if (ImGui::Button("Cancel")) {
+				previewPath.clear();
+				ImGui::CloseCurrentPopup();
+			}
+			ImGui::EndPopup();
+		}
+
+		if (ImGui::BeginPopup("Cannot Draw")) {
+			ImGui::Text("The drawing contains points outside of reachable range.");
+			if (ImGui::Button("OK")) {
+				previewPath.clear();
+				ImGui::CloseCurrentPopup();
+			}
+			ImGui::EndPopup();
+		}
+
+		// NEW: Show a Cancel button when drawing is in progress.
+		if (autoDrawing) {
+			if (ImGui::Button("Cancel Drawing")) {
+				autoDrawing = false;
+				drawingPath.clear();
+				previewPath.clear();
+			}
+		}
+		ImGui::End();
+
 
         glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
         glUseProgram(shaderProgram);
